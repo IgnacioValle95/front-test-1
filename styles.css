@@ -1,0 +1,33 @@
+.nav {
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+}
+
+.logoImage {
+  border-radius: 50%;
+
+  height: 150px;
+  width: 150px;
+}
+
+.menuSVG {
+  width: 20px;
+}
+
+.menuSVGClose {
+  position: absolute;
+  opacity: 0;
+}
+
+.menuSVGOpen {
+  opacity: 1;
+}
+
+#buttonNavbar {
+  height: 40px;
+}
+
+#listNavbar {
+  display: none;
+}
